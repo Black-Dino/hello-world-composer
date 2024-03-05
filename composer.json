@@ -1,0 +1,20 @@
+{
+    "name": "sajad/hello-world-composer",
+    "description": "my first pakage",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Sajad\\HelloWorldComposer\\": "src/"
+        },
+        "files": [
+            "src/RandomString.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "sfjp23j2",
+            "email": "tutbxaoptpo@gmail.com"
+        }
+    ],
+    "require": {}
+}
